@@ -24,5 +24,7 @@ int main()
     std::vector<std::string> c_langs;
     auto it = find_if(langs.begin(), langs.end(), [](const std::string& lang) {return lang[0] == 'C';});
     std::cout << it - langs.begin() << std::endl;
+    // итератор для нахождения элемента по условию и позицию этого элемента
+    
     return 0;
 }
